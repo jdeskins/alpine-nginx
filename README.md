@@ -21,3 +21,9 @@ If running docker-machine, you can launch in default browser by running:
 ```
 open http://${docker-machine ip default}
 ```
+
+View the running processes of the container:
+
+```
+docker exec [CONTAINER_NAME] ps
+```
